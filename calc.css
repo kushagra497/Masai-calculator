@@ -1,0 +1,42 @@
+.main{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 450px;
+    width: 360px;
+    margin-left: 39%;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 15px;
+   padding: 55px;
+   grid-template-rows: 85px;
+
+}
+.main>div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: larger;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#heading{
+    font-size: 45px;
+    text-align: center;
+    color: #008080;
+}
+.main>div:nth-child(1){
+    grid-area: 1/1/2/span 4;
+    
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+#input{
+    margin-bottom: 9px;
+}
